@@ -3,6 +3,16 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "clooper-common": [
+        "dist/clooper-common/clooper-common",
+        "dist/clooper-common"
+      ],
+      "clooper-core": [
+        "dist/clooper-core/clooper-core",
+        "dist/clooper-core"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
