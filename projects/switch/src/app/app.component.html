@@ -24,5 +24,18 @@
   
     <lib-base-accordion></lib-base-accordion>
   <div>
+
+    <div class="row mt-4">
+      <div class="col-3 mb-3 " *ngFor="let data of userRecord.appointments">
+        <div class="d-flex card p-2">
+          <img [src]="data?.avatar" width="40px" height="40px" class="mr-5" alt="">
+          <div>
+            <p> {{data?.name}} </p>
+            <p> {{data?.email}} </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
   
 </div>

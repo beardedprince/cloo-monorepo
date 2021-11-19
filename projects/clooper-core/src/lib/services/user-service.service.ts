@@ -6,10 +6,11 @@ import {HttpClient} from '@angular/common/http'
 })
 export class UserServiceService {
 
-const api =  'https://fake-api-endpoint.clooper.com'
+private api: string =  'https://fake-api-endpoint.clooper.com'
+private url: string =  'https://612b668c22bb490017893b1d.mockapi.io/health/v1/patients'
   constructor(private http: HttpClient) { }
 
   getUsers() {
-    return this.http.get(api)
+    return this.http.get(this.url);
   }
 }

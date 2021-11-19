@@ -10,9 +10,9 @@
     "start:switch": "ng serve --project=switch --port 4300",
     "start:lettings": "ng serve --project=lettings --port 4400",
     "start:trades": "ng serve --project=trades --port 4500",
-    "prod:build:switch":"ng build --prod --project switch --base-href /switch",
-    "prod:build:lettings":"ng build --prod --project lettings --base-href /lettings",
-    "prod:build:trades":"ng build --prod --project trades --base-href /trades",
+    "prod:build:switch": "ng build --prod --project switch --base-href /switch",
+    "prod:build:lettings": "ng build --prod --project lettings --base-href /lettings",
+    "prod:build:trades": "ng build --prod --project trades --base-href /trades",
     "lint": "ng lint"
   },
   "private": true,
